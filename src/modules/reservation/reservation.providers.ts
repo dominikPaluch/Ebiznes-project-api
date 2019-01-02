@@ -1,6 +1,6 @@
 import {Connection} from 'mongoose';
 import {getModelToken} from '@nestjs/mongoose';
-import {ReservationSchema} from '../schema/reservation.schema';
+import {ReservationSchema} from '../../schema/reservation.schema';
 
 export const reservationsProviders = [
     {

@@ -1,6 +1,6 @@
 import { Connection } from 'mongoose';
 import { getModelToken } from '@nestjs/mongoose';
-import { EquipmentSchema } from '../schema/equipmenet.schema';
+import { EquipmentSchema } from '../../schema/equipmenet.schema';
 
 export const equipmentsProviders = [
   {

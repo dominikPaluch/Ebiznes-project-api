@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { DatabaseModule } from '../database/database.module';
-import { EquipmentSchema } from '../schema/equipmenet.schema';
+import { EquipmentSchema } from '../../schema/equipmenet.schema';
 import { EquipmentService } from './equipment.service';
 import { equipmentsProviders } from './equipment.providers';
 import { EquipmentController } from './equipment.controller';

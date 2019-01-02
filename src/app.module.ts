@@ -1,8 +1,8 @@
 import {Module} from '@nestjs/common';
 import {MongooseModule} from '@nestjs/mongoose';
-import {EquipmentModule} from './equipment/equipment.module';
-import {UserModule} from './users/user.module';
-import {ReservationModule} from './reservation/reservation.module';
+import {EquipmentModule} from './modules/equipment/equipment.module';
+import {UserModule} from './modules/users/user.module';
+import {ReservationModule} from './modules/reservation/reservation.module';
 
 @Module({
     imports: [

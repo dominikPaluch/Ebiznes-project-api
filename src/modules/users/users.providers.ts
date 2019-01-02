@@ -1,6 +1,6 @@
 import {Connection} from 'mongoose';
 import {getModelToken} from '@nestjs/mongoose';
-import {UserSchema} from '../schema/user.schema';
+import {UserSchema} from '../../schema/user.schema';
 
 export const usersProviders = [
     {
